@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .contact-container {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        #homeButton {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 15px; /* Adjust the size as needed */
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> vijay@gmail.com</p>
+        <p><strong>Phone:</strong> 1112223334445</p>
+        <p><strong>Address:</strong> 123 Main Street, bapatla, guntur</p>
+    </div>
+
+    <a href="./home.html" id="homeButton">Home</a>
+
+</body>
+</html>
